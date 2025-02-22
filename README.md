@@ -1,6 +1,6 @@
-# DeepSeek R1 - Web UI - Docker
+# Ollama - Web UI - Docker
 
-This project sets up a Docker-based environment for running the DeepSeek model using Ollama and a web UI.
+This project sets up a Docker-based environment for running the LLMs using Ollama and a web UI.
 
 ## Prerequisites
 
@@ -11,8 +11,7 @@ This project sets up a Docker-based environment for running the DeepSeek model u
 
 1. Clone the repository:
     ```sh
-    git clone https://github.com/gabrielalmir/deepseek.git
-    cd deepseek
+    git clone git@github.com:artryazanov/ollama-webui-docker.git
     ```
 
 2. Build and start the services:
@@ -21,7 +20,7 @@ This project sets up a Docker-based environment for running the DeepSeek model u
     ```
 
 3. Access the web UI:
-    Open your browser and go to `http://localhost:3000`.
+    Open your browser and go to [http://localhost:7000](http://localhost:7000).
 
 ## Project Structure
 
